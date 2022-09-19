@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nextkios *.css
+recursive-include nextkios *.csv
+recursive-include nextkios *.html
+recursive-include nextkios *.ico
+recursive-include nextkios *.js
+recursive-include nextkios *.json
+recursive-include nextkios *.md
+recursive-include nextkios *.png
+recursive-include nextkios *.py
+recursive-include nextkios *.svg
+recursive-include nextkios *.txt
+recursive-exclude nextkios *.pyc
